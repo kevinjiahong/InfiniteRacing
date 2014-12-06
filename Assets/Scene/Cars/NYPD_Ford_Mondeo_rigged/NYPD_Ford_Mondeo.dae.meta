@@ -1,0 +1,132 @@
+fileFormatVersion: 2
+guid: 444d860361d283445bc20ad8f691be6e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: _000_NYPD_car_mat_3
+    100002: _001_NYPD_car_mat_7
+    100004: _002_NYPD_car_mat_1
+    100006: _003_NYPD_car_mat_1
+    100008: _004_NYPD_car_mat_4
+    100010: _005_NYPD_car_mat_5
+    100012: _006_NYPD_car_mat_6
+    100014: _007_NYPD_car_mat_2
+    100016: Armature
+    100018: car
+    100020: door_back_left
+    100022: door_back_right
+    100024: door_front_left
+    100026: door_front_right
+    100028: hood
+    100030: //RootNode
+    100032: pedal_accelerator
+    100034: pedal_brake
+    100036: root_car
+    100038: root_ground
+    100040: steering_wheel
+    100042: trunk
+    100044: wheel_front
+    100046: wheel_front_left
+    100048: wheel_front_right
+    100050: wheel_rear
+    100052: wheel_rear_left
+    100054: wheel_rear_right
+    400000: _000_NYPD_car_mat_3
+    400002: _001_NYPD_car_mat_7
+    400004: _002_NYPD_car_mat_1
+    400006: _003_NYPD_car_mat_1
+    400008: _004_NYPD_car_mat_4
+    400010: _005_NYPD_car_mat_5
+    400012: _006_NYPD_car_mat_6
+    400014: _007_NYPD_car_mat_2
+    400016: Armature
+    400018: car
+    400020: door_back_left
+    400022: door_back_right
+    400024: door_front_left
+    400026: door_front_right
+    400028: hood
+    400030: //RootNode
+    400032: pedal_accelerator
+    400034: pedal_brake
+    400036: root_car
+    400038: root_ground
+    400040: steering_wheel
+    400042: trunk
+    400044: wheel_front
+    400046: wheel_front_left
+    400048: wheel_front_right
+    400050: wheel_rear
+    400052: wheel_rear_left
+    400054: wheel_rear_right
+    4300000: _000_NYPD_car_mat_3
+    4300002: _001_NYPD_car_mat_7
+    4300004: _002_NYPD_car_mat_1
+    4300006: _003_NYPD_car_mat_1
+    4300008: _004_NYPD_car_mat_4
+    4300010: _005_NYPD_car_mat_5
+    4300012: _006_NYPD_car_mat_6
+    4300014: _007_NYPD_car_mat_2
+    9500000: //RootNode
+    13700000: _000_NYPD_car_mat_3
+    13700002: _001_NYPD_car_mat_7
+    13700004: _002_NYPD_car_mat_1
+    13700006: _003_NYPD_car_mat_1
+    13700008: _004_NYPD_car_mat_4
+    13700010: _005_NYPD_car_mat_5
+    13700012: _006_NYPD_car_mat_6
+    13700014: _007_NYPD_car_mat_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .330000013
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

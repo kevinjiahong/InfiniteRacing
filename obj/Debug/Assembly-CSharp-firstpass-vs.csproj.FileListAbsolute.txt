@@ -1,0 +1,11 @@
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\UnityEditor.dll
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\UnityEngine.dll
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\nunit.framework.dll
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\kevin\Documents\InfiniteRacing\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\kevin\Documents\InfiniteRacing\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\kevin\Documents\InfiniteRacing\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\kevin\Documents\InfiniteRacing\obj\Debug\Assembly-CSharp-firstpass.pdb
