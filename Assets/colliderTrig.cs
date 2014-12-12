@@ -9,7 +9,7 @@ public class colliderTrig : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         terrainGen = GameObject.Find("TerrainGenerator");
-        AICar = GameObject.Find("Aston");
+        AICar = GameObject.Find("CopCar");
 	}
 
     void OnTriggerEnter(Collider coll)

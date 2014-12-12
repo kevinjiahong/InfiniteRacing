@@ -49,14 +49,14 @@ public class CarAI : MonoBehaviour {
 
         RaycastHit hitInfo;
         Vector3 frontRayPos = transform.position 
-                            + transform.up * 0.6f 
+                            + transform.up * 0.5f 
                             + transform.forward * 2.2f;
         Vector3 leftRayPos = transform.position
-                            + transform.up * 0.6f 
+                            + transform.up * 0.5f 
                             + transform.forward * 2f
                             + transform.right * -0.7f;
         Vector3 rightRayPos = transform.position
-                            + transform.up * 0.6f 
+                            + transform.up * 0.5f 
                             + transform.forward * 2f
                             + transform.right * 0.7f;
 
