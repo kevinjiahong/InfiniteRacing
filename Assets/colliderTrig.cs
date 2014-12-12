@@ -19,15 +19,21 @@ public class colliderTrig : MonoBehaviour {
         if (!triggered && finishedInit)
         {
             triggered = true;
-            if (coll.name.ToString().Equals("Austin_Body") ||
-                coll.name.ToString().Equals("CopCar"))
+            if (coll.name.ToString().Equals("Austin_Body"))
             {
+                //only load the next terrain when player car pass the checkpoint
                 Debug.Log("create " + triggered.ToString());
                 terrainGen.SendMessage("loadNextTerrain", SendMessageOptions.DontRequireReceiver);
 
+            }
+            if (coll.name.ToString().Equals("CopCar"))
+            {
+                //only update the AI path when the copcar pass the checkpoint
                 component = transform.parent.gameObject;
                 AICar.SendMessage("updateComponent", component, SendMessageOptions.DontRequireReceiver);
             }
+                
+            
         }        
     }
 
