@@ -12,9 +12,10 @@ public class CarAI : MonoBehaviour {
     private const float maxSteerAngle = 8.5f;
 
     private List<Transform> path = null;
-    private GameObject currentComponent = null;
+    public GameObject currentComponent = null;
 
     private const float minPathpointScope = 15f;
+
 
     //update the road component currently on
     void updateComponent(GameObject comp)

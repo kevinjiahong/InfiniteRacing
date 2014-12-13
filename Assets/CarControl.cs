@@ -52,6 +52,7 @@ public class CarControl : MonoBehaviour {
     private float suspensionTravelRL = 0f;
     private float suspensionTravelRR = 0f;
 
+    private float distanceTravelled = 0f;
 
     void gearChange()
     {
@@ -206,8 +207,14 @@ public class CarControl : MonoBehaviour {
         float x  = transform.rigidbody.velocity.x;
         float y = transform.rigidbody.velocity.y;
         float z = transform.rigidbody.velocity.z;
-        velocity = Mathf.Sqrt(x * x + y * y + z * z);
+        velocity = Mathf.Sqrt(x * x + y * y);
 
+        if (enableAI == false)
+        {
+            distanceTravelled += velocity * Time.fixedDeltaTime;
+            Debug.Log(distanceTravelled.ToString());
+        }
+        
         if (enableAI)
         {
             //auto throttle
