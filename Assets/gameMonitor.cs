@@ -23,6 +23,10 @@ public class gameMonitor : MonoBehaviour {
             //reset the cop car
             copCar.transform.position = playerCar.transform.position
                                         - 5f * playerCar.transform.forward;
+            //the same rotation as the player car's 
+            copCar.transform.rotation = playerCar.transform.rotation;
+            //the same speed
+            copCar.rigidbody.velocity = playerCar.rigidbody.velocity;
             GameObject tempComponent = playerCar.GetComponent<CarAI>().currentComponent;
             //regenerate path for AI car
             copCar.SendMessage("updateComponent", tempComponent, SendMessageOptions.DontRequireReceiver);

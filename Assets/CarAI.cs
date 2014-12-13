@@ -9,6 +9,7 @@ public class CarAI : MonoBehaviour {
     public WheelCollider wheelRR;
 
     public bool debug = false;
+    public bool aiCarControl = false;
     private const float maxSteerAngle = 8.5f;
 
     private List<Transform> path = null;
@@ -164,7 +165,7 @@ public class CarAI : MonoBehaviour {
     void FixedUpdate()
     {
        
-        if (currentComponent != null)
+        if (currentComponent != null && aiCarControl)
         {
             //find the next waypoint
             bool found;
@@ -234,10 +235,12 @@ public class CarAI : MonoBehaviour {
                 wheelFL.steerAngle = 0;
                 wheelFR.steerAngle = 0;
             }
+
+            SensorUpdate();
         }
        
         
-        SensorUpdate();
+        
 
     }
 	// Update is called once per frame
